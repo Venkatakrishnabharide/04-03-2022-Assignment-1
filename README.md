@@ -1,1 +1,7 @@
-# 04-03-2022-Assignment-1
+l=[]
+n=int(input('enter'))
+for i in range(n):
+  x=int(input())
+  l.append(x)
+print(l)
+print(l.count(x))
